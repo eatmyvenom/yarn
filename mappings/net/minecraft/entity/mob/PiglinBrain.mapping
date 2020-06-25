@@ -64,7 +64,7 @@ CLASS net/minecraft/class_4838 net/minecraft/entity/mob/PiglinBrain
 	METHOD method_24747 makeGoToZombifiedPiglinTask ()Lnet/minecraft/class_4809;
 	METHOD method_24748 isHoldingCrossbow (Lnet/minecraft/class_1309;)Z
 		ARG 0 piglin
-	METHOD method_24750 angerAt (Lnet/minecraft/class_4836;Lnet/minecraft/class_1309;)V
+	METHOD method_24750 becomeAngryWith (Lnet/minecraft/class_4836;Lnet/minecraft/class_1309;)V
 		ARG 0 piglin
 		ARG 1 target
 	METHOD method_24751 addFightActivities (Lnet/minecraft/class_4836;Lnet/minecraft/class_4095;)V
@@ -166,7 +166,7 @@ CLASS net/minecraft/class_4838 net/minecraft/entity/mob/PiglinBrain
 		ARG 0 piglin
 	METHOD method_29945 angerNearbyPiglins (Lnet/minecraft/class_4836;)V
 		ARG 0 piglin
-	METHOD method_29946 angerAtPlayer (Lnet/minecraft/class_4836;Lnet/minecraft/class_1309;)V
+	METHOD method_29946 becomeAngryWithPlayer (Lnet/minecraft/class_4836;Lnet/minecraft/class_1309;)V
 		ARG 0 piglin
 		ARG 1 player
 	METHOD method_29947 getNearestDetectedPlayer (Lnet/minecraft/class_4836;)Ljava/util/Optional;
